@@ -1,0 +1,18 @@
+userName: asrarulhaq_ra30TG
+accessKey: mpfwixpf1pbaMtLeUEgp
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest-beta
+browserstackLocal: true
+buildName: browserstack-build-1
+projectName: BrowserStack Sample
