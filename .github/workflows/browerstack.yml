@@ -23,7 +23,7 @@ jobs:
       - name: "Python Install Requirements"
         run: pip3 install -r requirements.txt
       - name: "Python Start BrowserStack Test"
-        run: browserstack-sdk ./tests/flipkart.py
+        run: browserstack-sdk ./tests/automation_test.py
       - name: "BrowserStackLocal Stop"
         uses: "browserstack/github-actions/setup-local@master"
         with:
