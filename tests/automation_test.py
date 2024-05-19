@@ -34,7 +34,7 @@ element = driver.find_element(By.XPATH, "/html/body/div/div/div[3]/div[1]/div[1]
 driver.execute_script("arguments[0].scrollIntoView(true);", element)
 driver.execute_script("arguments[0].click();", element)
 time.sleep(2)
-element2= WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div[3]/div/div[2]/div[1]/div/div/div[3]/div[3]")))
+element2= WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div/div[3]/div/div[2]/div[1]/div/div/div[3]/div[4]")))
 driver.execute_script("arguments[0].scrollIntoView(true);", element2)
 driver.execute_script("arguments[0].click();", element2)
 
